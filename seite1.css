@@ -1,0 +1,417 @@
+
+@import url("navi_dropdown.css")  ;
+@import url("navi_dropdown2.css")  ;
+
+body
+{   background:linear-gradient( #58FA58, #80ba24) no-repeat;
+    background-image: -webkit-linear-gradient(top,#58FA58, #80ba24) no-repeat ; ; 
+    background-image: -moz-linear-gradient(top#58FA58, #80ba24) no-repeat ;
+    background-image: -o-linear-gradient(top,#58FA58, #80ba24)  no-repeat ;
+    background-image: linear-gradient(top,#58FA58, #80ba24) no-repeat ;
+    background:-moz-linear-gradient(top,#58FA58, #80ba24) no-repeat ;
+      background-position: center;
+      font-family: Verdana;
+      font-size: 8pt;
+      height: auto;
+    
+}
+a     
+{
+color:  #80ba24;
+text-decoration: none;
+}
+
+a:hover
+{
+    color: #000080;
+}
+a img
+{
+    
+}
+#root_site
+{          
+            width: 900px;
+            height: auto;
+            background-color: #FFF;
+                border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        
+    }
+    #head_main_container{
+    width: 900px;
+    height: 230px;
+    background-color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+      
+    }
+           .header_background
+           {                       
+               width: 900px;
+               height: 200px;
+               padding-top: 30px;
+               background: url(images/giessen.jpg) no-repeat;
+               background-position: center ;
+               border-radius: 5px;
+           
+           }
+           
+ /*---------------------navi_menue----------------------------------------------------------*/          
+    #navi_main_container{
+   background-color: #FFF;
+    width: 900px;
+    height: auto;
+  
+     
+     
+    }
+            .navi_container{
+                width: 100px ;
+                height: 100px;
+                
+                
+            }
+    
+/*------------------------startseite-----------------------------------------------------------*/    
+    #contant_main_container{
+
+   background-color: #fff;
+    width: 100%;
+    height: auto;
+        float: left;
+ 
+    
+     
+    }
+            .contant_left
+            {
+              
+               width: 70%;
+               height: 100%; 
+               background-color: #FFF ;
+               float: left;
+            }
+                .contant_table
+                {
+                  padding: 40px 30px 0px 50px;  
+                }
+                
+                 .contant_left_table
+                {
+                  padding: 0 30px 0px 50px;
+              
+                
+                }
+                
+                    .news_box
+                    {   width: 100%;
+                        background-color: #cccccc;
+                        padding: 3px 3px 3px 3px;
+                        border-radius: 10px;
+                    }
+            .contant_right
+            {  padding: 30px 0 50px 0;
+               width: 30%;
+               height: 100%;
+               background-color: #fff;
+               float: right;
+            }
+                .contant_right_table
+                {
+                   padding: 50px 30px 50px 30px;  
+                   border-left: dotted 1px #cccccc;  
+                }
+                    
+
+                    
+                    
+ 
+ /*------------------------seite2----------------------------------------------------------*/
+    #contant_main_container2{
+   background-color: #fff;
+    width: 100%;
+    height: auto;
+    float: left;
+   margin-top: -470px ;
+   
+    }
+            .contant_left2
+            {
+               padding: 30px 0 30px 0;
+               width: 100%;
+               height: 100%;
+               background-color: #FFF ;
+               float: left;
+
+            }
+                .contant_left_table2
+                {
+                  padding: 10px 30px 10px 30px;
+               
+                }
+                    .news_box2
+                    {
+                        background-color: #cccccc;
+                        padding: 3px 3px 3px 3px;
+                        border-radius: 10px;
+                    }
+            .contant_right2
+            {
+
+               height: 100%;
+               background-color: #fff;
+               float: right;
+            }
+                .contant_right_table2
+                {
+                   padding: 30px 30px 0 30px;
+                   border-left: dotted 1px #cccccc;
+                }
+                    .headline_right2
+                    {
+                        font-size: 14pt;
+                        font-weight: bold;
+                        font-variant: small-caps;
+                        color:  #80ba24;
+                        padding-top: 0px;
+                    }
+
+ 
+
+/*-------------------------fächer----------------------------------------------------------------------------*/
+             #contant_main_container3{
+   background-color: #fff;
+    width: 100%;
+    height: auto;
+    float: left;
+ 
+    }
+            .contant_left3
+            {
+               padding-top: 10px;
+               width: 100%;
+               height: 100%;
+               background-color: #FFF ;
+               float: left;
+            }
+                .contant_left_table3
+                {
+                  padding: 20px 10px 10px 30px;
+                }
+                    .news_box3
+                    {   width: 100%;
+                        background-color: #cccccc;
+                        padding: 3px 3px 3px 3px;
+                        border-radius: 10px;
+                    }
+                   .headline_right3
+                    {
+                        font-size: 14pt;
+                        font-weight: bold;
+                        font-variant: small-caps;
+                        color:  #80ba24;
+                        padding-top: 0px;
+                    }
+  .bilder_faecher
+  {
+      float: right;
+      border: solid 2px #000000;
+    } 
+    .bilder_faecher:hover
+  {
+      width: 500px;
+      height: 300px;
+      float:right;
+    }  
+/*-------------------------sonstiges----------------------------------------------------------------------------*/                   
+  #contant_main_container4{
+   background-color: #fff;
+    width: 100%;
+    height: auto;
+    float: left;
+
+    }
+            .contant_left4
+            {
+               padding-top: 10px;
+               width: 33%;
+               height: auto;
+               background-color: #FFF ;
+               float: left;
+            }
+                .contant_left_table4
+                {
+                  padding: 30px 30px 10px 30px;
+                }
+                    .news_box4
+                    {
+                        background-color: #cccccc;
+                        padding: 3px 3px 3px 3px;
+                        border-radius: 10px;
+                    }
+         
+                    .headline_right4
+                    {
+                        font-size: 14pt;
+                        font-weight: bold;
+                        font-variant: small-caps;
+                        color: #ee2c2c;
+                    
+                    }
+ 
+/*-----------------------impressum------------------------------------------------------------------------------------*/
+   #contant_main_containeri{
+   background-color: #fff;
+    width: 100%;
+    height: auto;
+    float: left;
+  
+    }
+            .contant_lefti
+            {
+               padding-top: 10px;
+             
+               height: 100%;
+               background-color: #FFF ;
+               float: left;
+            }
+                .contant_left_tablei
+                {
+                  padding: 20px 40px 10px 40px;
+                }
+                    .news_boxi
+                    {   width: 800px;
+                        background-color: #cccccc;
+                        padding: 3px 3px 3px 3px;
+                        border-radius: 10px;
+                    }
+            .contant_righti
+            {  padding: 50px 0 50px 0;
+                width: 30%;
+               height: 100%;
+               background-color: #fff;
+               float: right;
+            }
+                .contant_right_tablei
+                {
+                   padding: 30px 30px 0 30px;
+                   border-left: dotted 1px #cccccc;
+                }
+                    .headline_righti
+                    {
+                        font-size: 14pt;
+                        font-weight: bold;
+                        font-variant: small-caps;
+                        color:  #80ba24;
+                        padding-top: 0px;
+                    }
+
+                   
+
+
+  
+                   
+/*----------------------Alle seiten-----------------------------------------------------------------------------------*/  
+ 
+ #schriftart
+{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 13pt;
+
+
+
+    }
+     td#schriftart2
+{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 9pt;
+    text-align: center;
+
+
+    }
+  
+
+ 
+
+#icon
+{
+   float: left;
+}
+ .headline_right
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #80ba24;
+    padding-top: 0px;
+}
+
+.headline
+{   
+    font-size: 40pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #80ba24;
+    font-style:italic;
+   
+}
+#headline_zusatz
+{
+    font-size: 15pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000000; 
+    text-align: right; 
+    font-style:; 
+} 
+#schriftart3
+{
+    font-size: 30pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000000; 
+   
+}
+/*-----------------------footer---------------------------------------------------------------------------------------*/                                        
+    #footer_main_container{
+    width: 900px;
+    height: auto;
+    background-color: #555555;
+    float: left;
+   
+     
+     
+    }
+    #footer_container_setup
+    {     padding-top: 15px;
+      text-align: center; 
+      padding-bottom: 15px; 
+    }
+    
+      .footer_contant td
+    {
+
+        height: 8px;
+        width: 300px;
+          color: #ffffff;  
+    }
+     
+    .footer_contant a
+    {
+        
+         color: #ffffff;  
+         text-decoration: none; 
+        
+    }
+     .footer_contant a:hover
+    {
+
+         color: #000080;
+
+    }
+   
+   
+
