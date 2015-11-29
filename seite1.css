@@ -4,7 +4,7 @@
 
 body
 {   background:linear-gradient( #58FA58, #80ba24) no-repeat;
-    background-image: -webkit-linear-gradient(top,#58FA58, #80ba24) no-repeat ; ; 
+    background-image: -webkit-linear-gradient(top,#58FA58, #80ba24) no-repeat ; ;
     background-image: -moz-linear-gradient(top#58FA58, #80ba24) no-repeat ;
     background-image: -o-linear-gradient(top,#58FA58, #80ba24)  no-repeat ;
     background-image: linear-gradient(top,#58FA58, #80ba24) no-repeat ;
@@ -13,9 +13,23 @@ body
       font-family: Verdana;
       font-size: 8pt;
       height: auto;
-    
+
 }
-a     
+
+table.intable
+{   width:100%;
+
+
+}
+
+table.center {
+    width:80%;
+    margin-left:20%;
+
+
+  }
+
+a
 {
 color:  #80ba24;
 text-decoration: none;
@@ -27,16 +41,16 @@ a:hover
 }
 a img
 {
-    
+
 }
 #root_site
-{          
+{
             width: 900px;
             height: auto;
             background-color: #FFF;
                 border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-        
+
     }
     #head_main_container{
     width: 900px;
@@ -44,66 +58,66 @@ a img
     background-color: #FFF;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-      
+
     }
            .header_background
-           {                       
+           {
                width: 900px;
                height: 200px;
                padding-top: 30px;
                background: url(images/giessen.jpg) no-repeat;
                background-position: center ;
                border-radius: 5px;
-           
+
            }
-           
- /*---------------------navi_menue----------------------------------------------------------*/          
+
+ /*---------------------navi_menue----------------------------------------------------------*/
     #navi_main_container{
    background-color: #FFF;
     width: 900px;
     height: auto;
-  
-     
-     
+
+
+
     }
             .navi_container{
                 width: 100px ;
                 height: 100px;
-                
-                
+
+
             }
-    
-/*------------------------startseite-----------------------------------------------------------*/    
+
+/*------------------------startseite-----------------------------------------------------------*/
     #contant_main_container{
 
    background-color: #fff;
     width: 100%;
     height: auto;
         float: left;
- 
-    
-     
+
+
+
     }
             .contant_left
             {
-              
+
                width: 70%;
-               height: 100%; 
+               height: 100%;
                background-color: #FFF ;
                float: left;
             }
                 .contant_table
                 {
-                  padding: 40px 30px 0px 50px;  
+                  padding: 40px 30px 0px 50px;
                 }
-                
+
                  .contant_left_table
                 {
                   padding: 0 30px 0px 50px;
-              
-                
+
+
                 }
-                
+
                     .news_box
                     {   width: 100%;
                         background-color: #cccccc;
@@ -119,14 +133,14 @@ a img
             }
                 .contant_right_table
                 {
-                   padding: 50px 30px 50px 30px;  
-                   border-left: dotted 1px #cccccc;  
+                   padding: 50px 30px 50px 30px;
+                   border-left: dotted 1px #cccccc;
                 }
-                    
 
-                    
-                    
- 
+
+
+
+
  /*------------------------seite2----------------------------------------------------------*/
     #contant_main_container2{
    background-color: #fff;
@@ -134,7 +148,7 @@ a img
     height: auto;
     float: left;
    margin-top: -470px ;
-   
+
     }
             .contant_left2
             {
@@ -148,7 +162,7 @@ a img
                 .contant_left_table2
                 {
                   padding: 10px 30px 10px 30px;
-               
+
                 }
                     .news_box2
                     {
@@ -177,7 +191,7 @@ a img
                         padding-top: 0px;
                     }
 
- 
+
 
 /*-------------------------fächer----------------------------------------------------------------------------*/
              #contant_main_container3{
@@ -185,7 +199,7 @@ a img
     width: 100%;
     height: auto;
     float: left;
- 
+
     }
             .contant_left3
             {
@@ -217,14 +231,14 @@ a img
   {
       float: right;
       border: solid 2px #000000;
-    } 
+    }
     .bilder_faecher:hover
   {
       width: 500px;
       height: 300px;
       float:right;
-    }  
-/*-------------------------sonstiges----------------------------------------------------------------------------*/                   
+    }
+/*-------------------------sonstiges----------------------------------------------------------------------------*/
   #contant_main_container4{
    background-color: #fff;
     width: 100%;
@@ -243,35 +257,38 @@ a img
                 .contant_left_table4
                 {
                   padding: 30px 30px 10px 30px;
+
                 }
-                    .news_box4
+                                    .news_box4
                     {
                         background-color: #cccccc;
                         padding: 3px 3px 3px 3px;
                         border-radius: 10px;
                     }
-         
+
                     .headline_right4
                     {
                         font-size: 14pt;
                         font-weight: bold;
                         font-variant: small-caps;
                         color: #ee2c2c;
-                    
+
                     }
- 
+               
+
+
 /*-----------------------impressum------------------------------------------------------------------------------------*/
    #contant_main_containeri{
    background-color: #fff;
     width: 100%;
     height: auto;
     float: left;
-  
+
     }
             .contant_lefti
             {
                padding-top: 10px;
-             
+
                height: 100%;
                background-color: #FFF ;
                float: left;
@@ -307,13 +324,13 @@ a img
                         padding-top: 0px;
                     }
 
-                   
 
 
-  
-                   
-/*----------------------Alle seiten-----------------------------------------------------------------------------------*/  
- 
+
+
+
+/*----------------------Alle seiten-----------------------------------------------------------------------------------*/
+
  #schriftart
 {
     font-weight: bold;
@@ -332,9 +349,9 @@ a img
 
 
     }
-  
 
- 
+
+
 
 #icon
 {
@@ -350,61 +367,61 @@ a img
 }
 
 .headline
-{   
+{
     font-size: 40pt;
     font-weight: bold;
     font-variant: small-caps;
     color: #80ba24;
     font-style:italic;
-   
+
 }
 #headline_zusatz
 {
     font-size: 15pt;
     font-weight: bold;
     font-variant: small-caps;
-    color: #000000; 
-    text-align: right; 
-    font-style:; 
-} 
+    color: #000000;
+    text-align: right;
+    font-style:;
+}
 #schriftart3
 {
     font-size: 30pt;
     font-weight: bold;
     font-variant: small-caps;
-    color: #000000; 
-   
+    color: #000000;
+
 }
-/*-----------------------footer---------------------------------------------------------------------------------------*/                                        
+/*-----------------------footer---------------------------------------------------------------------------------------*/
     #footer_main_container{
     width: 900px;
     height: auto;
     background-color: #555555;
     float: left;
-   
-     
-     
+
+
+
     }
     #footer_container_setup
     {     padding-top: 15px;
-      text-align: center; 
-      padding-bottom: 15px; 
+      text-align: center;
+      padding-bottom: 15px;
     }
-    
+
       .footer_contant td
     {
 
         height: 8px;
         width: 300px;
-          color: #ffffff;  
+          color: #ffffff;
     }
-     
+
     .footer_contant a
     {
-        
-         color: #ffffff;  
-         text-decoration: none; 
-        
+
+         color: #ffffff;
+         text-decoration: none;
+
     }
      .footer_contant a:hover
     {
@@ -412,6 +429,5 @@ a img
          color: #000080;
 
     }
-   
-   
+
 
