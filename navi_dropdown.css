@@ -5,6 +5,9 @@ div#navi_menue
     font-size: 13pt;
     text-align: center;
     line-height: 90px;
+    display: inline-block;
+
+   
 }
 div#navi_menue a
  {

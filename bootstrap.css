@@ -23,7 +23,7 @@ body {
       font-family: Verdana;
       font-size: 8pt;
       height: auto;
-      
+
 align: center;
  text-align: center;
  display: block;
@@ -84,8 +84,10 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
-  font-size: 2em;
+  font-size: 30pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000000;
 }
 mark {
   color: #000;
@@ -204,16 +206,11 @@ optgroup {
   font-weight: bold;
 }
 table {
-align: center;
- text-align: center;
- display: block;
-  margin-right: auto;
-  margin-left: auto;
- background-position: center;
-position: relative;
+
+
 display: inline-block;
-  border-spacing: 0;
-  border-collapse: collapse;
+ 
+
 }
 td,
 th {
@@ -5844,6 +5841,15 @@ button.list-group-item-danger.active:focus {
   width: 100%;
   height: 100%;
   border: 0;
+
+}
+iframe{
+     width:600px;
+      height:450px;
+       frameborder:0;
+       
+    border:0;
+
 }
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
@@ -6830,14 +6836,15 @@ position: relative;
  /*---------------------navi_menue----------------------------------------------------------*/
     #navi_main_container{
    background-color: #FFF;
-    width: 900px;
+    width: 100%;
     height: auto;
-
+          
 
 
     }
             .navi_container{
-                width: 100px ;
+       
+                width: 100% ;
                 height: 100px;
 
 
@@ -7084,7 +7091,7 @@ position: relative;
 
 /*----------------------Alle seiten-----------------------------------------------------------------------------------*/
 
- #schriftart
+ .schriftart
 {
     font-weight: bold;
     font-variant: small-caps;
@@ -7137,7 +7144,7 @@ position: relative;
     text-align: right;
     font-style:;
 }
-#schriftart3
+.schriftart3
 {
     font-size: 30pt;
     font-weight: bold;
