@@ -1,12 +1,15 @@
-ul#navi_menue
+div#navi_menue
 {
     font-weight: bold;
     font-variant: small-caps;
     font-size: 13pt;
     text-align: center;
     line-height: 90px;
+    display: inline-block;
+
+   
 }
-ul#navi_menue a
+div#navi_menue a
  {
  background:linear-gradient( #fff, #80ba24) no-repeat;
     background-image: -webkit-linear-gradient(top,#FFf,#80ba24) no-repeat ; ;
@@ -16,7 +19,7 @@ ul#navi_menue a
     background:-moz-linear-gradient(top,#FFf,#80ba24) no-repeat ;;   
 }
 
-ul#navi_menue a:active
+div#navi_menue a:active
 {
  background:linear-gradient( #fff, #555555) no-repeat;
     background-image: -webkit-linear-gradient(top,#FFf,#555555) no-repeat ; ;
@@ -27,7 +30,7 @@ ul#navi_menue a:active
 background:-moz-linear-gradient(top,#f7f7f7,#555555);    
 }
 
-    ul#navi_menue a.Startseite
+    div#navi_menue a.Startseite
     {
     
         height: 100px;
@@ -53,14 +56,14 @@ background:-moz-linear-gradient(top,#f7f7f7,#555555);
      
      
     }  
-                ul#navi_menue a.Startseite:active {
+                div#navi_menue a.Startseite:active {
                   -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
                   box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
                   top: 7px;
       
                 }
 
-    ul#navi_menue a.faecher
+    div#navi_menue a.faecher
     {
            height: 100px;
         width: 100px;
@@ -83,13 +86,13 @@ background:-moz-linear-gradient(top,#f7f7f7,#555555);
       -o-transition: all 200ms ease;
       transition: all 200ms ease;
     }
-             ul#navi_menue a.faecher:active {
+             div#navi_menue a.faecher:active {
               -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               top: 7px;
             }
 
-    ul#navi_menue a.Kontakt
+    div#navi_menue a.Kontakt
     {
         height: 100px;
         width: 100px;
@@ -112,13 +115,13 @@ background:-moz-linear-gradient(top,#f7f7f7,#555555);
       -o-transition: all 200ms ease;
       transition: all 200ms ease;
     }
-            ul#navi_menue a.Kontakt:active {
+            div#navi_menue a.Kontakt:active {
               -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               top: 7px;
             }
 
-    ul#navi_menue a.sonstiges
+    div#navi_menue a.sonstiges
     {
           height: 100px;
         width: 100px;
@@ -141,7 +144,7 @@ background:-moz-linear-gradient(top,#f7f7f7,#555555);
       -o-transition: all 200ms ease;
       transition: all 200ms ease;
     }
-            ul#navi_menue a.sonstiges:active {
+            div#navi_menue a.sonstiges:active {
               -webkit-box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               box-shadow: 0px 2px 0px #878787, 0px 2px 8px #000000;
               top: 7px;

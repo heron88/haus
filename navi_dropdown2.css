@@ -1,5 +1,5 @@
 
-ul#navi_menue2 li
+ul.navi_menue2 li
  {
  float: left;
  position: relative;
@@ -7,7 +7,7 @@ ul#navi_menue2 li
 }
 
 
-ul#navi_menue2 li ul.dropdown_menue
+ul.navi_menue2 li ul.dropdown_menue
 { background:-moz-linear-gradient(top,#f7f7f7,#d4d4d4);
  background:linear-gradient( #f7f7f7,#d4d4d4) no-repeat;
 
@@ -21,21 +21,21 @@ ul#navi_menue2 li ul.dropdown_menue
   box-shadow: 1px 2px 2px 0px #333333;
   
 }
-ul#navi_menue2 li ul li:hover
+ul.navi_menue2 li ul li:hover
 {     
     background-color: #fff;
 }
-ul#navi_menue2 li ul li
+ul.navi_menue2 li ul li
 { 
     display: block;
     float: none;
     
 }
-ul#navi_menue2 li>ul
+ul.navi_menue2 li>ul
 {
     display: none;
 }
-ul#navi_menue2 li:hover>ul
+ul.navi_menue2 li:hover>ul
 {
     display: block;
     border-radius: 10px;
