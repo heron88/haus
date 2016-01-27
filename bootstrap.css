@@ -6,6 +6,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("navi_dropdown.css")  ;
 @import url("navi_dropdown2.css")  ;
+@import url("diagramm.css")             ;
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -7191,4 +7192,42 @@ position: relative;
     }
 
 
+.balken1{
+    background-color: red;
+    height: 300px;
+    width: 100px;
+    float: left;
+   
+}
+.balken11{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    float: left;
+
+}
+.balken2{
+    background-color: blue;
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+.balken22{
+    background-color: white;
+    height: 150px;
+    width: 100px;
+    float: left;
+}
+.balken3{
+    background-color: green;
+    height: 300px;
+    width: 100px;
+    float: left;
+}
+.balken33{
+    background-color: white;
+    height: 0px;
+    width: 100px;
+    float: left;
+}
 
